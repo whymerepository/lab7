@@ -10,7 +10,7 @@ int main()
 	scanf_s("%d", &length);
 	getchar();
 
-	str = (char*)calloc(sizeof(char), length + 2);
+	str = (char*)calloc(length + 2, sizeof(char));
 	fgets(str, length+1, stdin);
 
 
